@@ -1,0 +1,58 @@
+/* Your existing CSS */
+.firstimage {
+    background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/header-form.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.test {
+    background-color: rgba(251, 254, 255, 0);
+}
+
+.center-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-div h3 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+.center-div p {
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.center-div button:hover{
+    background-color: rgb(50, 50, 192);
+    
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .center-div {
+        /* Adjust centering for smaller screens */
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        
+
+    }
+    .center-div h3 {
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        line-height: 1.5cap;
+    }
+    .center-div p{
+        font-size: 17px;
+        font-weight: 90;
+        line-height: 1.5cap;
+
+    }
+}
