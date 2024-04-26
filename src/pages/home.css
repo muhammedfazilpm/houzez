@@ -21,6 +21,7 @@
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 2.5px;
+    margin-top: 20px;
 }
 
 .center-div p {
@@ -49,20 +50,21 @@
     font-weight: 100;
 
 }
-/* .section2_cards{
+.section2_cards{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-} */
-/* .section2_card{
-    width: 250px;
+}
+.section2_card{
+    width: 100%;
+    max-width: 250px;
     height: 200px;
     margin-right: 20px;
     text-align: center;
     margin-bottom: 10px;
    
-} */
+}
 .section2_card h1{
     font-size: 20px;
     font-weight: 500;
@@ -73,7 +75,12 @@
     font-size: 17px;
     font-weight: 100;
 }
+.section2_img_container{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 
+}
 .section2_img_container img{
     max-width: 100%; /* Ensure the image doesn't exceed its container */
     max-height: 100%;
@@ -82,10 +89,27 @@
 .section_3{
     height: 400px;
     text-align: center;
- background-color: rgb(233, 231, 231);
+    background-color: rgb(233, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     
 
 
+}
+
+.section_3_centerdiv{
+    width: 100%;
+    max-width: 950px;
+   
+
+}
+.section_3_centerdiv h1{
+    
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: .5px;
 }
 
 /* Media query for screens smaller than 768px */
@@ -110,25 +134,26 @@
         line-height: 1.5cap;
 
     }
-    /* .section2_cards {
+    .section2_cards {
         display: inline;
         vertical-align: middle;
-        text-align: center; 
+        text-align: center; /* Center items horizontally */
         padding: 20px;
         margin-top: 20px;
     }
     .section2_cards > * {
         margin-top: 20px;
         display: inline;
-        vertical-align: middle; 
+        vertical-align: middle; /* Align children vertically in the middle */
         padding: 20px;
 
-    } */
+
+    }
     .section2_img_container img{
         max-width: 100%; /* Ensure the image doesn't exceed its container */
         max-height: 100%;
         margin-bottom: 0.5cm;
-        margin-top: 20px;
+        margin-top: 50px;
         
     }
 }
