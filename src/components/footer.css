@@ -1,0 +1,36 @@
+.footer_body{
+    min-height: 400px;
+    width: 100%;
+
+}
+.footer_body_cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+.footer_body_card{
+    max-width: 200px;
+    width: 100%;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.footer_bottom{
+    margin-bottom: 0px;
+    min-height: 40px;
+    background-color: rgb(237, 245, 237);
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+
+@media screen and (max-width: 768px){
+    .footer_body_cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

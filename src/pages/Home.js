@@ -2,6 +2,8 @@ import React from "react";
 import "./home.css";
 import Navbarwhite from "../components/Navbarwhite";
 import { HiArrowSmLeft } from "react-icons/hi";
+import Carousel from "../components/Courosal";
+import Footer from "../components/Footer";
 function Home() {
   return (
     <div>
@@ -132,10 +134,33 @@ function Home() {
       <div>
      </div>
      <div className="section_5">
+     <h1>
+     Discover Our Properties​ 
+     </h1>
+     <p>Find out the finest selection of carefully selected first-class and exclusive properties available on the market.</p>
      
-     
-     
+     <Carousel/>
+  <button className="bg-blue-500 text-white p-4 hover:bg-blue-400 mt-4">Check our Properties</button>
      </div>
+     <div className="section_6">
+     <h1>Real Estate Success Stories</h1>
+     <p>Read some of our selling stories to see how our expert agents help you prepare your home for sale, set a price, determine a selling strategy and negotiate with buyers</p>
+     <div className="section_6_cards">
+     <div className="section_6_card">
+     <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/12-1.jpg"/>
+    <h2>Learn The Truth About Real Estate Industry</h2>
+    <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+     </div>
+     <div className="section_6_card"> <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/12-1.jpg"/>
+     <h2>Quick Tips About Business Development</h2>
+     <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+     </div>
+     </div>
+     <button className="bg-blue-500 mt-4 p-3 text-white mb-5">Find More Stories</button>
+
+     </div>
+
+     <Footer/>
     </div>
   );
 }
