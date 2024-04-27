@@ -66,6 +66,65 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className='about_4'>
+<div className='about_4_center'>
+<h1 >
+Read From Our Blog
+</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+<div className='about_4_cards'>
+<div className='about_4_card'>
+<div className='about_4_card_image'>
+<img src='https://demo15.houzez.co/wp-content/uploads/2017/11/04-1-592x444.jpg'/>
+<h2>Skills That You Can Learn In The Real Estate Market</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+
+</div>
+
+
+
+</div>
+<div className='about_4_card'>
+<div className='about_4_card_image'>
+<img src='https://demo15.houzez.co/wp-content/uploads/2017/11/06-1-592x444.jpg'/>
+<h2>Skills That You Can Learn In The Real Estate Market</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+
+
+
+</div>
+
+</div>
+<div className='about_4_card'>
+<div className='about_4_card_image'>
+<img src='https://demo15.houzez.co/wp-content/uploads/2017/11/07-1-592x444.jpg'/>
+<h2>Skills That You Can Learn In The Real Estate Market</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+
+
+
+</div>
+
+</div>
+<div className='about_4_card'>
+<div className='about_4_card_image'>
+<img src='https://demo15.houzez.co/wp-content/uploads/2017/11/106-592x444.jpg'/>
+<h2>Skills That You Can Learn In The Real Estate Market</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis et sem sed sollicitudin. Donec...</p>
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+      </div>
       <Footer/>
     </div>
   );

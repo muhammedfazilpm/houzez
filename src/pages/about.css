@@ -108,7 +108,58 @@
 .overlay p {
   text-align: center;
 }
+.about_4{
+    min-height: 500px;
+    padding: 60px;
+}
+.about_4_center{
+    min-height: 400px;
 
+}
+.about_4_center h1{
+    font-size: 40px;
+  font-weight: 600;
+  line-height: 1.5cm;
+  margin-left: 30px;
+}
+.about_4_center p{
+    font-size: 17px;
+    font-weight: 200;
+   margin-left: 30px;
+
+
+}
+.about_4_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    padding: 20px;
+
+}
+
+.about_4_card{
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    position: relative;
+
+}
+.about_4_card_image{
+    padding: 8px;
+    transition: opacity 0.3s ease;
+}
+.about_4_card_image:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+.about_4_card_image p{
+    margin: 0;
+}
+.about_4_card_image{
+    font-size: 15px;
+    font-weight: 600;
+
+}
 @media screen and (max-width: 768px) {
   .about_2 {
     min-height: 500px;
@@ -147,5 +198,9 @@
   }
   .about_3 {
     padding: 1px;
+  }
+  .about_4_cards{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
