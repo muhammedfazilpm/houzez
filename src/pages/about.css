@@ -202,5 +202,16 @@
   .about_4_cards{
     display: flex;
     flex-wrap: wrap;
+    padding: 10px;
+
+  }
+  .about_4{
+    padding: 0px;
+  }
+  .about_4_card{
+    margin-right: 0;
+  }
+  .about_4_card_image{
+    padding: 0;
   }
 }
