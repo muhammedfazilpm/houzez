@@ -40,7 +40,7 @@ const ImageSlider = ({ images,price,shover,bed,space,heading }) => {
 
   return (
     <div className='w-full min-h-[300px] bg-white p-4 mt-2  shadow-2xl'>
-      <Slider className='-mx-2' {...settings}> {/* Adjust the mx value to reduce the gap */}
+      <Slider className='-mx-2' {...settings}> {/* Adjust the mx value to reduce the gap ce*/}
         {images.map((image, index) => (
           <div key={index}>
             <img className="w-full" src={image} alt={`slide-${index}`} />
