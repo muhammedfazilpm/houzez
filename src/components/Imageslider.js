@@ -50,7 +50,7 @@ const ImageSlider = ({ images,price,shover,bed,space,heading }) => {
       <div>
         <h4>{heading}</h4>
         <div className='flex justify-center items-center'>
-          <p>₹2{price}</p>
+          <p>₹{price}</p>
           <MdOutlineKingBed className='ml-4' />{bed}
           <MdOutlineShower className='ml-4' />{shover}
           <TbRulerMeasure className='ml-4' />{space}
