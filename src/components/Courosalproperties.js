@@ -4,9 +4,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { MdOutlineBed } from "react-icons/md";
 import { MdOutlineShower } from "react-icons/md";
+import ImageSlider from './Imageslider';
 
 
 const Carouselproperties = () => {
+   
    const Properties=[{
     image:'https://demo15.houzez.co/wp-content/uploads/2017/11/71-592x444.jpg',
     rate:'4500/mo',
