@@ -1,0 +1,33 @@
+.about_tesimonial_cards{
+    background-color: #edf9ff;
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.about_tesimonial_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+.about_tesimonial_card img{
+    border-radius: 50%;
+    width: 50px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .about_tesimonial_cards{
+        background-color: #edf9ff;
+        width: 100%;
+        max-width: 300px;
+        min-height: 200px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+}

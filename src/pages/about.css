@@ -160,6 +160,19 @@
     font-weight: 600;
 
 }
+.section_5{
+  background-color: #f9f8f9;
+  height: 100%;
+  padding: 30px;
+  text-align: center;
+}
+.section_5_center{
+display: flex;
+justify-content: center;
+
+  
+
+}
 @media screen and (max-width: 768px) {
   .about_2 {
     min-height: 500px;
@@ -213,5 +226,9 @@
   }
   .about_4_card_image{
     padding: 0;
+  }
+  .section_5_center{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
