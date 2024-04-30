@@ -14,8 +14,8 @@ function Contactus() {
     </div>
     <div className='contact_form_frame'>
     <div>
-    <div class="max-w-lg w-full mx-auto p-10 mb-28 bg-white">
-    <form class="mt-8 w-full space-y-6">
+    <div class="max-w-3xl w-full mx-auto p-10 mb-28 bg-white">
+    <form class="mt-8  space-y-6">
       <div class="flex space-x-4">
         <div class="w-1/2">
           <label for="first_name" class="block text-sm font-medium text-gray-700">First Name</label>

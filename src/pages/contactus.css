@@ -8,13 +8,13 @@
 }
 .contactus_center{
     min-height: 100px;
-    padding: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
 
 }
 .contact_form_frame{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 150px;
     color: aliceblue;
 }
 
@@ -25,7 +25,6 @@
     min-height: 200px;
     margin-left: 20px;
     padding: 10px;
-    text-align: center;
 }
 .contactus_form_2 h1{
 font-size: 20px;
@@ -38,11 +37,13 @@ font-weight: 600;
         display: flex;
         flex-wrap: wrap;
         color: aliceblue;
+        padding: 0px;
+        width: 100%;
     }
     .contactus_center{
         min-height: 100px;
         padding: 50px;
-    
+        width: 100%;
     }
 
 }

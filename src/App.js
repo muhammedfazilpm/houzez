@@ -8,6 +8,7 @@ import About from './pages/About';
 import Properties from './pages/Properties';
 import Blog from './pages/Blog';
 import Contactus from './pages/Contactus';
+import Gettingstarted from './pages/Gettingstarted';
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,8 @@ function App() {
     <Route path='/properties' element={<Properties/>}/>
     <Route path='/blog' element={<Blog/>}/>
     <Route path='/contact' element={<Contactus/>}/>
+    <Route path='/getingstarted' element={<Gettingstarted/>}/>
+
 
 
 

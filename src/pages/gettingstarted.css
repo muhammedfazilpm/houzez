@@ -1,0 +1,56 @@
+.gettingstarted_card{
+    background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/header-form.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+.gettingstarted_card1{
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    padding-bottom: 300px;
+   
+}
+.gettingstarted_card1 h1{
+    color: rgb(230, 219, 219);
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+}
+.gettingstarted_card1 p{
+    color: rgb(241, 235, 235);
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+
+}
+
+@media screen and (max-width: 768px){
+    .gettingstarted_card1{
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+       
+    }
+    .gettingstarted_card1 h1{
+        color: rgb(230, 219, 219);
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        
+    }
+    .gettingstarted_card1 p{
+        color: rgb(241, 235, 235);
+        font-size: 15px;
+        margin-bottom: 10px;
+        
+    
+    }
+
+}
