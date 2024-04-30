@@ -46,12 +46,12 @@ function Navbarbarwhite() {
             <li>
               <a onClick={()=>{
                 navigate('/')
-              }} className="block py-2 px-3 text-white bg-transparent rounded md:bg-transparent md:text-transparent md:p-0  md:hover:text-gray-400 dark:text-white md:dark:text-white" aria-current="page">HOME</a>
+              }} className="block py-2 px-3 text-white bg-transparent rounded md:bg-transparent md:text-white md:p-0  md:hover:text-gray-400 dark:text-white md:dark:text-white" aria-current="page">HOME</a>
             </li>
             <li>
               <a onClick={()=>{
                 navigate('/about')
-              }} className="block py-2 px-3 text-while rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white md:dark:hover:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT US</a>
+              }} className="block py-2 px-3 text-white rounded hover:bg-gray-400 md:hover:bg-transparent md:border-0 md:hover:text-gray-400 md:p-0 dark:text-white md:dark:hover:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT US</a>
             </li>
             <li>
               <a onClick={()=>{
