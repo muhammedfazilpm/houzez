@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Properties from './pages/Properties';
 import Blog from './pages/Blog';
+import Contactus from './pages/Contactus';
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,8 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/properties' element={<Properties/>}/>
     <Route path='/blog' element={<Blog/>}/>
+    <Route path='/contact' element={<Contactus/>}/>
+
 
 
     

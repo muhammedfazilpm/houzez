@@ -16,7 +16,7 @@
 }
 
 .blog_card2{
-    min-height: 500px;
+    min-height: 500px; 
     width: 35%;
     margin-right: 10px;
     padding: 2px;
@@ -27,7 +27,8 @@
     min-height: 300px;
     max-width: 300px;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top:30px;
     padding: 15px;
 }
 .blog_card2_sec1 h1{
@@ -53,19 +54,21 @@
         min-height: 500px;
         width: 100%;
         margin-right: 10px;
-        padding: 5px;
+        padding: 0px;
     }
     .blog_card2{
         min-height: 400px;
         width: 100%;
         margin-right: 10px;
-        padding: 2px;
-        background-color: red;
+        padding: 30px;
+      
     
     }
     .blog_card2_sec1{
-       background-color: wheat;
+       background-color: rgb(255, 255, 255);
         width: 100%;
         padding: 2px;
+        position: relative;
+       
     }
 }

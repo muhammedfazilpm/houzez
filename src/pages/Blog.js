@@ -39,7 +39,9 @@ function Blog() {
     </div>
     
 <div className='blog_card2'>
+
 <div className='blog_card2_sec1'>
+
 <h1>Topics</h1>
 
 <ul>
