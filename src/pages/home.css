@@ -305,6 +305,8 @@
     .section_4{
         background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/agent-bg.jpg');
         background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         height: 100vh;
         padding-top: 200px;
     }
