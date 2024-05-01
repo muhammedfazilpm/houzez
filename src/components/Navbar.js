@@ -36,7 +36,7 @@ function Navbar() {
             />
           </svg>
         </button>
-        <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a  className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/32529141_x17.jpg" className="h-12" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">houzez</span>
         </a>
