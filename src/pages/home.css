@@ -2,7 +2,7 @@
 .firstimage {
     background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/header-form.jpg');
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .test {
@@ -255,9 +255,11 @@
 }
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
+   
     .center-div {
         /* Adjust centering for smaller screens */
         left: 50%;
+        min-height: 100px;
         
 
     }
