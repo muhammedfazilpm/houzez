@@ -10,10 +10,7 @@
 }
 
 .center-div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   padding: 300px;
     text-align: center;
 }
 
@@ -231,7 +228,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 180px;
     padding: 30px;
     
 
@@ -258,8 +255,10 @@
    
     .center-div {
         /* Adjust centering for smaller screens */
-        left: 50%;
-        min-height: 100px;
+        padding: 20px;
+        text-align: center;
+        padding-top:50px ;
+       
         
 
     }
@@ -269,11 +268,13 @@
         letter-spacing: 1px;
         line-height: 1.5cap;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
     .center-div p{
         font-size: 17px;
         font-weight: 90;
         line-height: 1.5cap;
+        margin-top: 20px;
 
     }
     .section2_cards {

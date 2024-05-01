@@ -10,7 +10,7 @@ function Home() {
       <div className="firstimage">
         <Navbarwhite />
         <div className="center-div  text-white ">
-        <div>
+        <div className="center-div-content">
           <h3>How Much Is My House Worth?​</h3>
           <p>
             Houzez was built to get more real estate leads, increase your

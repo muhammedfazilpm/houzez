@@ -41,8 +41,8 @@ function Contactus() {
         </div>
       </div>
       <div>
-        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-        <textarea id="message" placeholder='Mssage' name="message" rows="4" class="mt-1 text-black focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
+        <label for="message" class="block  text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" placeholder='Mssage' name="message" rows="4" class="mt-1 p-2 text-black focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
       </div>
       <div>
         <button type="submit" class="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Submit</button>
