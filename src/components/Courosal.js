@@ -39,24 +39,30 @@ const Carousel = () => {
             autoplayTimeout={3000} 
           >
             <div className='courosalcard'>
-              <img className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/71-592x444.jpg" alt="img" />
-              <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-              <h3 className="text-white text-lg font-bold">Your Text Here</h3>
+              <img style={{filter:'brightness(40%)'}} className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/71-592x444.jpg" alt="img" />
+              <div style={{display:'flex',justifyContent:'center',flexDirection:"column",color:'white'}} className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+              <h3 className="text-white"><h2 style={{fontSize:"25px"}}>Redefining Luxury Living</h2><h3>Explore our exquisite villas that blend modern elegance with
+              timeless charm</h3>  <button className="bg-blue-500 text-white p-3 hover:bg-blue-400 mt-10">Discover your Dream home</button>
+              </h3>
             </div>
             </div>
             <div>
-              <img className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/103-592x444.jpg" alt="img" />
-              <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-              <h3 className="text-white text-lg font-bold">Your Text Here</h3>
+              <img style={{filter:'brightness(40%)'}} className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/103-592x444.jpg" alt="img" />
+              <div style={{display:'flex',justifyContent:'center',flexDirection:"column",color:'white'}} className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+              <h3 className="text-white"><h2 style={{fontSize:"25px"}}>A Legacy of Trust</h2><h3>Building homes for a decade with precision, passion, and a
+              commitment to quality.</h3>  <button className="bg-blue-500 text-white p-3 hover:bg-blue-400 mt-10">Learn About Us</button>
+              </h3>
             </div>
             </div>
             <div>
-              <img className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/22-592x444.jpg" alt="img" />
-              <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
-              <h3 className="text-white text-lg font-bold">Your Text Here</h3>
+              <img style={{filter:'brightness(40%)'}} className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/22-592x444.jpg" alt="img" />
+              <div style={{display:'flex',justifyContent:'center',flexDirection:"column",color:'white'}} className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+              <h3 className="text-white"><h2 style={{fontSize:"25px"}}>Experience the Future of Living</h2><h3>Ongoing projects that offer innovative designs and unparalleled
+              comfort.</h3>  <button className="bg-blue-500 text-white p-3 hover:bg-blue-400 mt-10">View Our Projects</button>
+              </h3>
             </div>
             </div>
-            <div>
+            {/* <div>
               <img className="w-full" src="https://demo15.houzez.co/wp-content/uploads/2017/11/15-592x444.jpg" alt="img" />
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
               <h3 className="text-white text-lg font-bold">Your Text Here</h3>
@@ -85,7 +91,7 @@ const Carousel = () => {
               <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
               <h3 className="text-white text-lg font-bold">Your Text Here</h3>
             </div>
-            </div>
+            </div> */}
           </OwlCarousel>
         </div>
       </div>

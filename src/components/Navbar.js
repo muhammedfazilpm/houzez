@@ -38,7 +38,7 @@ function Navbar() {
         </button>
         <a  className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/32529141_x17.jpg" className="h-12" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">houzez</span>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Indus Wayfair</span>
         </a>
 
         <div className={`w-full md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id="navbar-default">

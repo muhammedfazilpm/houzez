@@ -9,8 +9,10 @@ function Contactus() {
     <div className='contactus_bg'>
     <Navbarbarwhite/>
     <div className='contactus_center'>
-    <h1 className='text-gray-200 mb-5 text-4xl font-bold'>Speak To An Expert</h1>
-    <p className='text-gray-200 text-l'> The Contact Form widget allows you to design unique forms to capture your leads. This form automatically connects with the integrated Houzez CRM and your email inbox to keep everything on track.</p>
+    <h1 className='text-gray-200 mb-5 mt-5 text-4xl font-bold'>Get in Touch</h1>
+    <p className='text-gray-200 text-l'> Whether you're interested in our properties or have any queries, we're here to help.
+Reach out to us through any of the following methods, and a member of our team will be in
+touch with you shortly.</p>
     </div>
     <div className='contact_form_frame'>
     <div>
@@ -45,7 +47,7 @@ function Contactus() {
         <textarea id="message" placeholder='Mssage' name="message" rows="4" class="mt-1 p-2 text-black focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
       </div>
       <div>
-        <button type="submit" class="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Submit</button>
+        <button type="submit" class="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Send Us a Message</button>
       </div>
     </form>
   </div>

@@ -8,7 +8,8 @@ import Footer from '../components/Footer';
 
 const familyhome = [
   {
-    heading: "Single Family Homes",
+    heading: "Granday Mansion, Thevara",
+    content:"A luxurious villa project in the heart of the city, offering an unmatched blend of comfort and style"
   },
   {
     images: [
@@ -87,7 +88,8 @@ const familyhome = [
 ];
 const Apartments=[
   {
-    heading: "Apartments",
+    heading: "Aureole, Irumpanam",
+    content:"A contemporary residential complex designed with modern living in mind."
   },
   {
     images: [
@@ -328,7 +330,9 @@ function Properties() {
     <div>
       <Navbar/>
       <div  className='properties1'>
-        <h1>Featured Properties</h1>
+        <h1>Our Properties</h1>
+        <p>At Indus Wayfair, we offer a diverse range of properties that cater to different
+        lifestyles and preferences. Our ongoing projects include:</p>
         <Carouselproperties/>
       </div>
       <div className='properties2'>

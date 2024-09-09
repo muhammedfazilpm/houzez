@@ -26,24 +26,28 @@ const About = () => {
         <h1>About Us</h1>
       </div>
       <div className="about_2">
-        <h1>Your Vision Unrestricted</h1>
+        <h1>About Indus Wayfair</h1>
         <div className="about_2_center">
           <div className="about_2_card">
             <p>
-              Houzez is a premium WordPress theme for real estate agents and
-              agencies where modern aesthetics are combined with a tasteful
-              simplicity and where the ease of use is achieved without
-              compromise in your ability to customize the design.
+            Indus Wayfair is a visionary real estate company born from the merger of two
+successful builders, Indus Gratia and Wayfair Developers. With over a decade of experience in
+crafting luxurious villas and residential spaces, Indus Gratia brought a wealth of expertise and a
+solid reputation to the partnership. Wayfair Developers, known for their innovative approach and
+contemporary designs, complemented this with a modern edge. Together, we are committed to
+creating homes that not only meet but exceed the expectations of our discerning clients. At
+Indus Wayfair, we believe in building more than just houses; we build legacies."
+
             </p>
           </div>
-          <div className="about_2_card">
+          {/* <div className="about_2_card">
             <p>
               Houzez is also a WordPress-based property management system which
               allows you to own and maintain a real estate marketplace,
               coordinate your agents, accept submissions and offer membership
               packages.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="about_3">

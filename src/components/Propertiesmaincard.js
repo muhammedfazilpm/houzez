@@ -5,7 +5,7 @@ function Propertiesmaincard({props}) {
  
 
   return (
-    <div className="grid grid-cols-12 gap-4 mt-5 p-8">
+    <div className="grid grid-cols-12 gap-2 mt-5 p-8">
       {props.map((data, i) => {
         if (i === 0) {
           return (
@@ -14,6 +14,7 @@ function Propertiesmaincard({props}) {
               key={i}
             >
               <h1>{data.heading}</h1>
+              <p style={{fontSize:'20px',marginTop:"30px"}}>{data.content}</p>
             </div>
           );
         } else if (i === 4) {
