@@ -12,7 +12,7 @@ function Home() {
         <div className="center-div  text-white ">
         <div className="center-div-content">
           <h3>Our Journey​</h3>
-          <p>
+          <p style={{letterSpacing:"1px"}}>
           Indus Wayfair is the result of the strategic merger between Indus Gratia and Wayfair
 Developers, two pioneers in the real estate industry. Indus Gratia, known for its luxurious villa
 constructions, has been a trusted name for over a decade, with successful projects such as
@@ -153,12 +153,14 @@ innovate, and elevate the standard of living.
      <h1>Explore Our Properties</h1>
      {/* <p>Read some of our selling stories to see how our expert agents help you prepare your home for sale, set a price, determine a selling strategy and negotiate with buyers</p> */}
      <div className="section_6_cards">
-     <div className="section_6_card">
-     <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/12-1.jpg"/>
+     <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}} className="section_6_card">
+     <img  src="/cpu_03 copy.jpg"/>
     <h2>Granday Mansion, Thevara</h2>
     {/* <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> */}
      </div>
-     <div className="section_6_card"> <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/12-1.jpg"/>
+     <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}} className="section_6_card">
+      
+      <img src="/cpu_02 copy.jpg"/>
      <h2>Aureole, Irumpanam</h2>
      {/* <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> */}
      </div>

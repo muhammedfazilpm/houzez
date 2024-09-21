@@ -102,7 +102,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
           <div className="about_4_cards">
             <div className="about_4_card">
               <div className="about_4_card_image">
-                <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/04-1-592x444.jpg" />
+                <img src="/kitchen.jpg" />
                 <h2>Skills That You Can Learn In The Real Estate Market</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -112,7 +112,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
             </div>
             <div className="about_4_card">
               <div className="about_4_card_image">
-                <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/06-1-592x444.jpg" />
+                <img src="/street 01.jpg" />
                 <h2>Skills That You Can Learn In The Real Estate Market</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -122,7 +122,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
             </div>
             <div className="about_4_card">
               <div className="about_4_card_image">
-                <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/07-1-592x444.jpg" />
+                <img src="/upper living room .jpg" />
                 <h2>Skills That You Can Learn In The Real Estate Market</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -130,7 +130,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
                 </p>
               </div>
             </div>
-            <div className="about_4_card">
+            {/* <div className="about_4_card">
               <div className="about_4_card_image">
                 <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/106-592x444.jpg" />
                 <h2>Skills That You Can Learn In The Real Estate Market</h2>
@@ -139,7 +139,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
                   mollis et sem sed sollicitudin. Donec...
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

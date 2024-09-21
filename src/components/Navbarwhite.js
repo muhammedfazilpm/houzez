@@ -37,7 +37,7 @@ function Navbarbarwhite() {
           </svg>
         </button>
         <a className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/32529141_x17.jpg" className="h-12" alt="Flowbite Logo" />
+          <img src="/INDUS WAYFAIR Logo_page-0001.jpg" className="h-12" alt="Flowbite Logo" />
           <span className="self-center text-2xl text-white font-semibold whitespace-nowrap dark:text-white">Indus Wayfair</span>
         </a>
 

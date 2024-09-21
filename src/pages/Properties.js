@@ -13,8 +13,8 @@ const familyhome = [
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+      "shot_08 copy.jpg",
+      "shot_07 copy.jpg",
     ],
     price: 2400,
     bed: 2,
@@ -24,8 +24,8 @@ const familyhome = [
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+      "shot_06 copy.jpg",
+      "shot_05 copy.jpg",
     ],
     price: 2400,
     bed: 2,
@@ -35,8 +35,8 @@ const familyhome = [
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+      "shot_07 copy.jpg",
+      "shot_08 copy.jpg",
     ],
     price: 2400,
     bed: 2,
@@ -45,46 +45,46 @@ const familyhome = [
     heading: "dummy",
   },
   {
-    headimage: "https://demo15.houzez.co/wp-content/uploads/2017/11/114.jpg",
+    headimage: "/shot_01.jpg",
     heading: "Family Home",
-    description: "11 properties",
-    heading: "dummy",
+    description: " properties",
+    heading: "",
   },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
 
-    price: 2400,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
-    price: 2400,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
+  //   price: 2400,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
+  //   price: 2400,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
 
-    price: 2500,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
+  //   price: 2500,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
 ];
 const Apartments=[
   {
@@ -93,9 +93,8 @@ const Apartments=[
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/65-584x438.jpg",
-      "	https://demo15.houzez.co/wp-content/uploads/2017/11/62-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/61-584x438.jpg"
+      "/4.jpg",
+      "/3.jpg",
     ],
     price: "4500/month",
     bed: 2,
@@ -105,8 +104,8 @@ const Apartments=[
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/23-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+      "/2 (1).jpg",
+      "/1 (1).jpg",
     ],
     price: 2400,
     bed: 2,
@@ -116,8 +115,8 @@ const Apartments=[
   },
   {
     images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+      "/1 (1).jpg",
+      "/2 (1).jpg",
     ],
     price: 2400,
     bed: 2,
@@ -126,45 +125,45 @@ const Apartments=[
     heading: "dummy",
   },
   {
-    headimage: "https://demo15.houzez.co/wp-content/uploads/2017/11/114.jpg",
-    heading: "Appartment",
-    description: "21 properties",
+    headimage: "/shot_01.jpg",
+    heading: "",
+    description: "properties",
   },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
 
-    price: 2400,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
-    price: 2400,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
-  {
-    images: [
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
-      "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
-    ],
+  //   price: 2400,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
+  //   price: 2400,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
+  // {
+  //   images: [
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/22-584x438.jpg",
+  //     "https://demo15.houzez.co/wp-content/uploads/2017/11/15-584x438.jpg",
+  //   ],
 
-    price: 2500,
-    bed: 2,
-    shover: 2,
-    space: "1500 sqft",
-    heading: "dummy",
-  },
+  //   price: 2500,
+  //   bed: 2,
+  //   shover: 2,
+  //   space: "1500 sqft",
+  //   heading: "dummy",
+  // },
 ]
 const Villas=[
   {

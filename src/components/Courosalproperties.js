@@ -10,14 +10,14 @@ import ImageSlider from './Imageslider';
 const Carouselproperties = () => {
    
    const Properties=[{
-    image:'https://demo15.houzez.co/wp-content/uploads/2017/11/71-592x444.jpg',
+    image:'/upper living room .jpg',
     rate:'4500/mo',
     heading:'Modern Apartment On The Bay',
     bed:'1',
     shover:'2'
   },
 {
-    image:'	https://demo15.houzez.co/wp-content/uploads/2017/11/23-592x444.jpg',
+    image:'/living room .jpg',
     rate:'3700/mo',
     heading:'Modern Apartment On The Bay',
     bed:'2',
