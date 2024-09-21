@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer_body'>
 <div className='footer_body_cards' >
 <div className='footer_body_card'>
-<img src='https://demo15.houzez.co/wp-content/uploads/2018/07/logo.png'/>
+<img style={{width:'100px'}} src='/INDUS WAYFAIR Logo_page-0001.jpg'/>
 </div>
 <div className='footer_body_card'>
   Contact Us
@@ -24,8 +24,8 @@ Privacy</div>
 
 </div>
 <div className='footer_bottom'>
-<TiSocialInstagram />
-<SlSocialFacebook />
+{/* <TiSocialInstagram size={30} />
+<SlSocialFacebook size={30}/> */}
 
 </div>
     </div>

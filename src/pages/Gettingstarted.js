@@ -1,13 +1,14 @@
 import React from 'react'
 import './gettingstarted.css'
 import Navbarwhite from '../components/Navbarwhite'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 function Gettingstarted() {
   return (
     <>
     <div className='gettingstarted_card'>
    
-    <Navbarwhite/>
+    <Navbar/>
     <div className='gettingstarted_card1'>
     <h1>How Much Is My House Worth?​</h1>
     <p>The Inquiry Form widget allows you to design unique forms to capture your leads. This form automatically connects with the integrated Houzez CRM and your email inbox to keep everything on track.</p>

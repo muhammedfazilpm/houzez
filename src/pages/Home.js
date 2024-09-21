@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import Navbarwhite from "../components/Navbarwhite";
+import Navbar from "../components/Navbar";
 import { HiArrowSmLeft } from "react-icons/hi";
 import Carousel from "../components/Courosal";
 import Footer from "../components/Footer";
@@ -8,11 +9,11 @@ function Home() {
   return (
     <div>
       <div className="firstimage">
-        <Navbarwhite />
+        <Navbar />
         <div className="center-div  text-white ">
         <div className="center-div-content">
           <h3>Our Journey​</h3>
-          <p style={{letterSpacing:"1px"}}>
+          <p style={{letterSpacing:"1px",lineHeight:'1.2'}}>
           Indus Wayfair is the result of the strategic merger between Indus Gratia and Wayfair
 Developers, two pioneers in the real estate industry. Indus Gratia, known for its luxurious villa
 constructions, has been a trusted name for over a decade, with successful projects such as

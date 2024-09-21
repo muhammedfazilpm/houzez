@@ -2,12 +2,12 @@ import React from 'react'
 import Navbarbarwhite from '../components/Navbarwhite'
 import Footer from '../components/Footer'
 import './contactus.css'
-
+import Navbar from '../components/Navbar'
 function Contactus() {
   return (
     <>
     <div className='contactus_bg'>
-    <Navbarbarwhite/>
+    <Navbar/>
     <div className='contactus_center'>
     <h1 className='text-gray-200 mb-5 mt-5 text-4xl font-bold'>Get in Touch</h1>
     <p className='text-gray-200 text-l'> Whether you're interested in our properties or have any queries, we're here to help.
