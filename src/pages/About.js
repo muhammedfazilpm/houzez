@@ -50,7 +50,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
           </div> */}
         </div>
       </div>
-      <div className="about_3">
+      {/* <div className="about_3">
         <div className="about_3_center">
           <h1>Meet Our Team</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
@@ -94,8 +94,8 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
             </div>
           </div>
         </div>
-      </div>
-      <div className="about_4">
+      </div> */}
+      {/* <div className="about_4">
         <div className="about_4_center">
           <h1>Read From Our Blog</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
@@ -130,7 +130,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
                 </p>
               </div>
             </div>
-            {/* <div className="about_4_card">
+            <div className="about_4_card">
               <div className="about_4_card_image">
                 <img src="https://demo15.houzez.co/wp-content/uploads/2017/11/106-592x444.jpg" />
                 <h2>Skills That You Can Learn In The Real Estate Market</h2>
@@ -139,11 +139,11 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
                   mollis et sem sed sollicitudin. Donec...
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
-      </div>
-      <div className="section_5">
+      </div> */}
+      {/* <div className="section_5">
       <h1>
       Testimonials
       </h1>
@@ -154,7 +154,7 @@ Indus Wayfair, we believe in building more than just houses; we build legacies."
       ))}
     </div>
       
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

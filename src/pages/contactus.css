@@ -1,5 +1,5 @@
 .contactus_bg{
-    background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/agent-bg.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/Contact\ Page\ Image.jpg');
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;

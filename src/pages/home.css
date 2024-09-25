@@ -1,8 +1,8 @@
 /* Your existing CSS */
 .firstimage {
-    background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/header-form.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/Our\ Journey\ Image.jpg');
     background-size: cover;
-    min-height: 100vh;
+    height: 120vh;
 }
 
 .test {
@@ -147,14 +147,15 @@
 
 }
 .section_4{
-    background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/agent-bg.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/A\ Legacy\ Build\ on\ trust\ Image.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     padding-top: 200px;
+
 }
 .section_4_container{
-    color: rgb(249, 245, 245);
+    color:rgb(255, 255, 255);
     height: 400px;
     max-width: 500px;
     width:100%;
@@ -166,13 +167,13 @@
 .section_4_container h1{
     font-size: 50px;
     letter-spacing: 0cm;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5cm;
 
 }
 .section_4_container p{
     font-size: 17px;
-    font-weight: 100;
+    font-weight: 400;
     margin-top: 6px;
 
 }
@@ -181,6 +182,7 @@
     font-size: large;
     max-width: 200px;
     width: 100%;
+    color: white;
 }
 .section_5{
     height: 100vh;

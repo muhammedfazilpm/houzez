@@ -64,11 +64,11 @@ function Navbar() {
                 navigate('/contact')
               }}  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT US</a>
             </li>
-            <li>
+            {/* <li>
             <a onClick={()=>{
               navigate('/getingstarted')
             }} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GET STARTED</a>
-          </li>
+          </li> */}
           </ul>
         </div>
       </div>

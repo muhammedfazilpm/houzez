@@ -45,7 +45,7 @@ const familyhome = [
     heading: "dummy",
   },
   {
-    headimage: "/shot_01.jpg",
+    headimage: "/Explore properties Granday.jpg",
     heading: "Family Home",
     description: " properties",
     heading: "",
@@ -125,7 +125,7 @@ const Apartments=[
     heading: "dummy",
   },
   {
-    headimage: "/shot_01.jpg",
+    headimage: "/Explore properties Aureole.jpg",
     heading: "",
     description: "properties",
   },
@@ -332,7 +332,7 @@ function Properties() {
         <h1>Our Properties</h1>
         <p>At Indus Wayfair, we offer a diverse range of properties that cater to different
         lifestyles and preferences. Our ongoing projects include:</p>
-        <Carouselproperties/>
+        {/* <Carouselproperties/> */}
       </div>
       <div className='properties2'>
         <Propertiesmaincard props={familyhome}/>
@@ -341,13 +341,13 @@ function Properties() {
       <Propertiesmaincard props={Apartments}/>
 
       </div>
-      <div className='properties2'>
+      {/* <div className='properties2'>
       <Propertiesmaincard props={Villas}/>
-    </div>
-    <div className='properties3'>
+    </div> */}
+    {/* <div className='properties3'>
     <Propertiesmaincard props={Lofts}/>
 
-    </div>
+    </div> */}
 
       <Footer/>
     </div>

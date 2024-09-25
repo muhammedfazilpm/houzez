@@ -23,13 +23,15 @@ function Propertiesmaincard({props}) {
               className="col-span-12 md:col-span-6 lg:col-span-3 mt-3"
               key={i}
               style={{
-                backgroundImage: `url(${data.headimage})`,
+                backgroundImage: `url(../../public${data.headimage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 position: "relative",
                 minHeight: "200px", 
               }}
             >
+              <img src={data.headimage}></img>
+              {/* <h1>../../public{data.headimage}</h1> */}
               {/* Overlay */}
               <div
                 style={{
