@@ -4,7 +4,11 @@
     background-size: cover;
     height: 120vh;
 }
-
+.first-image {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.575) ), url('../../public/Slider\ 1.jpg');
+    background-size: cover;
+    height: 120vh;
+}
 .test {
     background-color: rgba(251, 254, 255, 0);
 }
@@ -33,6 +37,7 @@
 .section2{
     height: 200px;
     text-align: center;
+    margin-bottom: 15px;
 
 }
 .section2  h1{
@@ -308,11 +313,11 @@
         
     }
     .section_4{
-        background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/agent-bg.jpg');
+        background-image: url('../../public/A\ Legacy\ Build\ on\ trust\ Image.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 100vh;
+        min-height: 100vh;
         padding-top: 200px;
     }
     .section_4_container{

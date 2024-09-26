@@ -10,26 +10,19 @@ function Home() {
   const navigate=useNavigate()
   return (
     <div>
-      <div className="firstimage">
+      <div className="first-image">
         <Navbar />
         <div className="center-div  text-white ">
         <div className="center-div-content">
-          <h3>Our Journey​</h3>
-          <p style={{letterSpacing:"1px",lineHeight:'1.2'}}>
-          Indus Wayfair is the result of the strategic merger between Indus Gratia and Wayfair
-Developers, two pioneers in the real estate industry. Indus Gratia, known for its luxurious villa
-constructions, has been a trusted name for over a decade, with successful projects such as
-Hyacinth, Village Garden, and Breezy Meadows. Wayfair Developers along with Cloud One, Sky
-Villas, Granday Mansion, directors of Wayfair developers where engaged in commercial
-construction for decades brought a unique blend of modern design and functionality to the table,
-further enhancing the quality and diversity of our offerings. Together, as Indus Wayfair, we continue to uphold the legacy of excellence, delivering homes that resonate with our clients’
-aspirations.
+          <h3>Redefining Luxury Living​</h3>
+          <p style={{letterSpacing:"1px",lineHeight:'1.2',fontSize:"25px",fontWeight:"300"}}>
+          Explore our exquisite villas that blend modern elegance with timeless charm.
 
           </p>
           </div>
-          {/* <button className="bg-blue-600 pr-6 pl-6 p-2 mt-8">
-            Get Started
-          </button> */}
+          <button onClick={()=>navigate("/properties")} className="bg-blue-600 pr-6 pl-6 p-2 mt-8">
+          Discover Your Dream Home
+          </button>
         </div>
       </div>
       <div></div>
@@ -41,6 +34,7 @@ aspirations.
           <br /> any realtor or real estate agency would be delighted to have
         </p> */}
       </div>
+      
       <div>
         <div className="section2_cards">
           <div className="section2_card">
@@ -81,6 +75,31 @@ aspirations.
           </div>
         </div>
       </div>
+
+
+      <div className="firstimage">
+      
+        <div className="center-div  text-white ">
+        <div className="center-div-content">
+          <h3>Our Journey​</h3>
+          <p style={{letterSpacing:"1px",lineHeight:'1.2'}}>
+          Indus Wayfair is the result of the strategic merger between Indus Gratia and Wayfair
+Developers, two pioneers in the real estate industry. Indus Gratia, known for its luxurious villa
+constructions, has been a trusted name for over a decade, with successful projects such as
+Hyacinth, Village Garden, and Breezy Meadows. Wayfair Developers along with Cloud One, Sky
+Villas, Granday Mansion, directors of Wayfair developers where engaged in commercial
+construction for decades brought a unique blend of modern design and functionality to the table,
+further enhancing the quality and diversity of our offerings. Together, as Indus Wayfair, we continue to uphold the legacy of excellence, delivering homes that resonate with our clients’
+aspirations.
+
+          </p>
+          </div>
+          {/* <button className="bg-blue-600 pr-6 pl-6 p-2 mt-8">
+            Get Started
+          </button> */}
+        </div>
+      </div>
+
 
       <div className="section_3">
         <div className="section_3_centerdiv">

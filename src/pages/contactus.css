@@ -34,7 +34,7 @@ font-weight: 600;
 }
 @media screen and (max-width: 768px){
     .contactus_bg{
-        background-image: url('https://demo15.houzez.co/wp-content/uploads/2018/07/agent-bg.jpg');
+        background-image: url('../../public/Contact\ Page\ Image.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
