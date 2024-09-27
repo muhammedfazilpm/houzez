@@ -259,6 +259,11 @@
 }
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
+    .first-image {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.575) ), url('../../public/Slider\ 1.jpg');
+        background-size: cover;
+        height: auto;
+    }
    
     .center-div {
         /* Adjust centering for smaller screens */
@@ -338,5 +343,11 @@
         
       
     }
-   
+  
+    .firstimage {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/Our\ Journey\ Image.jpg');
+        background-size: cover;
+        height: auto;
+        
+    }
 }
