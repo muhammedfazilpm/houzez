@@ -10,8 +10,9 @@ function Home() {
   const navigate=useNavigate()
   return (
     <div>
+         <Navbar />
       <div className="first-image">
-        <Navbar />
+     
         <div className="center-div  text-white ">
         <div className="center-div-content">
           <h3>Redefining Luxury Living​</h3>

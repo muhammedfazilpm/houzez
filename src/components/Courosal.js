@@ -42,7 +42,7 @@ const Carousel = () => {
           >
             <div className='courosalcard'>
             <video 
-    style={{filter: 'brightness(50%)', minHeight: "400px"}} 
+    style={{filter: 'brightness(50%)', minHeight: "480px"}} 
     className="w-full" 
     src="/demo.mp4" 
     autoPlay 
@@ -57,7 +57,7 @@ const Carousel = () => {
             </div>
             <div>
   <video 
-    style={{filter: 'brightness(50%)', minHeight: "400px"}} 
+    style={{filter: 'brightness(50%)', minHeight: "480px"}} 
     className="w-full" 
     src="/demo.mp4" 
     autoPlay 
@@ -83,7 +83,7 @@ const Carousel = () => {
 
             <div>
             <video 
-    style={{filter: 'brightness(50%)', minHeight: "400px"}} 
+    style={{filter: 'brightness(50%)', minHeight: "480px"}} 
     className="w-full" 
     src="/demo.mp4" 
     autoPlay 
