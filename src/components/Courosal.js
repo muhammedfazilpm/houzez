@@ -56,45 +56,54 @@ const Carousel = () => {
 
   const handleVideoPosition = (index) => {
     const video = videoRefs.current[index];
-    if (video && video.duration) {
-      video.currentTime = (video.duration / 3) * ((index + 1) % video.duration);
+    if (video && video.readyState >= 1) {
+      // Starting position based on slide index
+      const startPosition = (video.duration / items.length) * index;
+      video.currentTime = startPosition;
+    }
+  };
+
+  const onLoadedMetadata = (index) => {
+    const video = videoRefs.current[index];
+    if (video) {
+      handleVideoPosition(index);
     }
   };
 
   return (
-    <div style={{background:"white"}} className="carousel-container">
-      <div style={{background:"white"}} className="container mx-auto">
-        <div style={{background:"white"}} className="overflow-hidden">
-          <Slider style={{background:"white"}} {...settings}>
+    <div style={{ background: "white" }} className="carousel-container">
+      <div style={{ background: "white" }} className="container mx-auto">
+        <div style={{ background: "white" }} className="overflow-hidden">
+          <Slider style={{ background: "white" }} {...settings}>
             {items.map((item, index) => (
               <div
                 key={index}
-                
                 className="carousel-card relative text-center px-2"
-                style={{ height: "200px", margin: "0 10px",background:"white" }} // Adds gap between slides
+                style={{ height: "200px", margin: "0 10px", background: "white" }}
               >
                 <video
                   ref={(el) => (videoRefs.current[index] = el)}
-                  style={{ filter: 'brightness(70%)', minHeight: "200px",background:"white" }}
+                  style={{ filter: 'brightness(70%)', minHeight: "200px", background: "white" }}
                   className="w-full object-cover h-full"
                   src="/demo1.mp4"
                   autoPlay
                   loop
                   muted
                   playsInline
+                  onLoadedMetadata={() => onLoadedMetadata(index)}
                 />
                 <div
                   className="absolute inset-0 flex flex-col justify-center items-center text-white p-4"
                   style={{ background: 'rgba(0,0,0,0.4)' }}
                 >
-                  <h2 className="text-xl md:text-2xl font-bold mb-2 shadow-md">{item.title}</h2>
-                  <p className="text-sm md:text-lg mb-4 shadow-md">{item.subtitle}</p>
-                  <button
+                  {/* <h2 className="text-xl md:text-2xl font-bold mb-2 shadow-md">{item.title}</h2> */}
+                  {/* <p className="text-sm md:text-lg mb-4 shadow-md">{item.subtitle}</p> */}
+                  {/* <button
                     onClick={() => navigate(item.route)}
                     className="bg-blue-500 text-white py-1 px-3 rounded-full hover:bg-blue-400 transition-all"
                   >
                     {item.buttonText}
-                  </button>
+                  </button> */}
                 </div>
               </div>
             ))}
