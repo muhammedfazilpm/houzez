@@ -85,7 +85,7 @@ const Carousel = () => {
                   ref={(el) => (videoRefs.current[index] = el)}
                   style={{ filter: 'brightness(70%)', minHeight: "200px", background: "white" }}
                   className="w-full object-cover h-full"
-                  src="/demo1.mp4"
+                  src="/videos/demo1.mp4"
                   autoPlay
                   loop
                   muted

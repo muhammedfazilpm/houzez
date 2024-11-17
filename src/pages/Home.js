@@ -199,13 +199,13 @@ aspirations.
      {/* <p>Read some of our selling stories to see how our expert agents help you prepare your home for sale, set a price, determine a selling strategy and negotiate with buyers</p> */}
      <div className="section_6_cards">
      <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}} className="section_6_card">
-     <img  src="/Explore properties Granday.jpg"/>
+     <img  src="/images/Explore properties Granday.jpg"/>
     <h2>Granday Mansion, Thevara</h2>
     {/* <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> */}
      </div>
      <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}} className="section_6_card">
       
-      <img src="/Explore properties Aureole.jpg"/>
+      <img src="/images/Explore properties Aureole.jpg"/>
      <h2>Aureole, Irumpanam</h2>
      {/* <p>Lorem ipsum dolor sit amet elit, conse tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p> */}
      </div>

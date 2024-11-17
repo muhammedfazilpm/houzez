@@ -37,29 +37,29 @@ function Navbar() {
           </svg>
         </button>
         <a  className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/INDUS WAYFAIR Logo_page-0001.jpg" className="h-12" alt="Flowbite Logo" />
+          <img src="https://res.cloudinary.com/dves9p9u6/image/upload/v1731430216/ziusnmznnwxue1zu9tor.jpg" className="h-12" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">Indus Wayfair</span>
         </a>
 
         <div className={`w-full md:flex md:w-auto ${isMenuOpen ? 'block' : 'hidden'}`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:mt-0 md:flex-row md:space-x-8 rtl:space-x-reverse">
             <li>
-              <a onClick={() => {navigate('/')}} className="block py-2 px-3 text-black bg-transparent rounded md:bg-transparent md:text-black md:p-0  hover:text-blue-500 dark:text-black md:dark:text-black md:dark:hover:text-blue-500" aria-current="page">HOME</a>
+              <a style={{cursor:"pointer"}} onClick={() => {navigate('/')}} className="block py-2 px-3 text-black bg-transparent rounded md:bg-transparent md:text-black md:p-0  hover:text-blue-500 dark:text-black md:dark:text-black md:dark:hover:text-blue-500" aria-current="page">HOME</a>
             </li>
-            <li>
+            <li style={{cursor:"pointer"}}>
               <a onClick={() => {navigate('/about')}} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">ABOUT US</a>
             </li>
-            <li>
+            <li style={{cursor:"pointer"}}>
               <a onClick={()=>{
                 navigate('/properties')
               }} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PROPERTIES</a>
             </li>
-            <li>
+            <li style={{cursor:"pointer"}}>
               <a onClick={()=>{
                 navigate('/blog')
               }} className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">BLOG</a>
             </li>
-            <li>
+            <li style={{cursor:"pointer"}}>
               <a onClick={()=>{
                 navigate('/contact')
               }}  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-900 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT US</a>

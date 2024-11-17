@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer_body'>
 <div className='footer_body_cards' >
 <div className='footer_body_card'>
-<img style={{width:'100px'}} src='/INDUS WAYFAIR Logo_page-0001.jpg'/>
+<img style={{width:'100px'}} src='https://res.cloudinary.com/dves9p9u6/image/upload/v1731430216/ziusnmznnwxue1zu9tor.jpg'/>
 </div>
 <div className='footer_body_card'>
   Contact Us

@@ -1,11 +1,11 @@
 /* Your existing CSS */
 .firstimage {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/Our\ Journey\ Image.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/images/Our\ Journey\ Image.jpg');
     background-size: cover;
     height: 120vh;
 }
 .first-image {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.575) ), url('../../public/Slider\ 1.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.575) ), url('../../public/images/Slider\ 1.jpg');
     background-size: cover;
     height: 120vh;
 }
@@ -152,7 +152,7 @@
 
 }
 .section_4{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/A\ Legacy\ Build\ on\ trust\ Image.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/images/A\ Legacy\ Build\ on\ trust\ Image.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -318,18 +318,16 @@
         
     }
     .section_4{
-        background-image: url('../../public/A\ Legacy\ Build\ on\ trust\ Image.jpg');
+        background-image: url('../../public/images/A\ Legacy\ Build\ on\ trust\ Image.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         min-height: 100vh;
-        padding-top: 200px;
     }
     .section_4_container{
         color: rgb(249, 245, 245);
-        max-width: 200px;
         width:100%;
-        padding: 2px;
+        margin-left: 0px;
     
     }
     .section_5{
@@ -345,7 +343,7 @@
     }
   
     .firstimage {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/Our\ Journey\ Image.jpg');
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../public/images/Our\ Journey\ Image.jpg');
         background-size: cover;
         height: auto;
         
